@@ -5,81 +5,192 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Explorer 3.0</title>
+
+        <style>
+
+            /*global*/
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            header, main{
+                border: 1px solid red;
+                max-width: 300px;
+                margin: 2px auto;
+
+
+            }
+
+            /*especifico*/
+            
+            .header {
+                
+                text-align: center;
+                padding: 32px 0;
+
+            }
+
+            section{
+                margin-top: 24px;
+                border: 1px solid green;
+
+
+            }
+
+            h2 {
+                border: 1px solid blue;
+                background-color: cadetblue;
+
+
+                text-align: center;
+                
+            }
+
+            ul{
+                list-style: none;
+                margin: 24px 0;
+                
+            }
+
+
+            section ul li{
+                margin: 16px 0;
+            
+
+                border: 1px solid green;
+               
+
+
+            }
+            .item{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+            }
+
+
+
+            h3{
+                border: 1px solid green;
+
+            }
+
+
+            .price{
+                border: 1px solid green;
+            
+            }
+
+            .descripition{
+
+                max-width: 240px;
+                padding-top: 8px;
+            }
+
+        </style>
+
+
+
+
+
     </head>
     <body>
 
-        <header>
+        <header class="header">
             <h1>ROCKETCOFFEE</h1>
             <P>Aberto todos os dias. 8h - 21h</P>
         </header>
 
         <main>
             <section>
+                <h2>PANQUECA</h2>
                 <ul>
-                    <h2>PANQUECA</h2>
+                    
                     <li>
-                        <h3 class="item">DA CASA</h3>   
-                        <strong class="price">R$30.00</strong>
-                        <p>Lovoluptatem, harum  amet.</p>     
+                        <div class="item">
+                            <h3>DA CASA</h3>   
+                            <strong class="price">R$30.00</strong>
+                        </div>
+                        <p class="descripition">Lovoluptatem, harum  amet.</p>     
                     </li>
 
                     <li>
-                        <h3 class="item">CARNE</h3>   
-                        <strong class="price">R$38.90</strong>
-                        <p>atque illo voluptatem, harum amet expedita sint  </p>     
+                        <div class="item">
+                            <h3>CARNE</h3>   
+                            <strong class="price">R$38.90</strong>
+
+                        </div>
+                       
+                        <p class="descripition">atque illo voluptatem, harum amet expedita sint  </p>     
                     </li>
 
                     <li>
-                        <h3 class="item">FRANGO</h3>   
-                        <strong class="price">R$29.80</strong>
-                        <p>voluptatem, harum  impedit magni magnam adipisci, tempora minus!.</p>     
+                        <div class="item">
+                            <h3>FRANGO</h3>   
+                            <strong class="price">R$29.80</strong>
+                        </div>
+                        <p class="descripition">voluptatem, harum  impedit magni magnam adipisci, tempora minus!.</p>     
                     </li>
 
 
                 </ul>
             </section>
             <section>
+
+                <h2>DOCES</h2>
                 <ul>
-                    <h2>DOCES</h2>
                     <li>
-                        <h3 class="item">WAFFLE DOCE</h3>   
-                        <strong class="price">R$37.70</strong>
-                        <p>Lorem ipsum dolor sit amet.</p>     
+                        <div class="item">
+                            <h3>WAFFLE DOCE</h3>   
+                            <strong class="price">R$37.70</strong>
+                        </div>
+                        <p class="descripition">Lorem ipsum dolor sit amet.</p>     
                     </li>
 
                     <li>
-                        <h3 class="item">ARROZ DOCE</h3>   
-                        <strong class="price">R$25.70</strong>
-                        <p>atque illo voluptatem, harum amet expedita sint  </p>     
+                        <div class="item">
+                            <h3>ARROZ DOCE</h3>   
+                            <strong class="price">R$25.70</strong>
+                        </div>
+                        <p class="descripition">atque illo voluptatem, harum amet expedita sint  </p>     
                     </li>
 
                     <li>
-                        <h3 class="item">MAÇA DOCE</h3>   
-                        <strong class="price">R$39.80</strong>
-                        <p>fuga saepe, hic nam. Consequatur ex minima impedit magni magnam adipisci, tempora minus!.</p>     
+                        <div class="item">
+                            <h3>MAÇA DOCE</h3>   
+                            <strong class="price">R$39.80</strong>
+                        </div>
+                        
+                        <p class="descripition">fuga saepe, hic nam. Consequatur ex minima impedit magni magnam adipisci, tempora minus!.</p>     
                     </li>
-
-
                 </ul>
             </section>
             <section>
+                <h2>CAFÉ</h2>
                 <ul>
-                    <h2>CAFÉ</h2>
                     <li>
-                        <h3 class="item">AMERICANO</h3>   
-                        <strong class="price">R$9.70</strong>
-                        <p>Lorem ipsum.</p>     
+                        <div class="item">
+                            <h3>AMERICANO</h3>   
+                            <strong class="price">R$9.70</strong>
+                        </div>
+                        <p class="descripition">Lorem ipsum.</p>     
                     </li>
 
                     <li>
-                        <h3 class="item">EXPRESSO</h3>   
-                        <strong class="price">R$8.70</strong>
-                        <p>atque illo voluptatem, harum amet expedita sint  </p>     
+                        <div class="item">
+                            <h3>EXPRESSO</h3>   
+                            <strong class="price">R$8.70</strong>
+                        </div>
+                        <p class="descripition">atque illo voluptatem, harum amet expedita sint  </p>     
                     </li>
 
                     <li>
-                        <h3 class="item">AGUA MINERAL</h3>   
-                        <strong class="price">R$5.80</strong>
+                        <div class="item">
+                            <h3>AGUA MINERAL</h3>   
+                            <strong class="price">R$5.80</strong>
+                        </div>
                        
                     </li>
 
