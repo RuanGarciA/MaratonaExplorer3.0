@@ -1,0 +1,116 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FFEDD5;
+    font-family: 'Roboto Serif';
+    text-shadow: 0 0 0.2em rgba(59, 32, 28, 0.219), 0 0 0.2em #F87
+}
+
+header, main{
+    
+    max-width: 300px;
+    margin: 2px auto;
+}
+section{
+    margin-bottom: 24px;
+}
+h3{      
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #2D2C2A;
+}
+
+p{
+    font-family: 'Sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+
+
+/*especifico*/
+.header {
+    text-align: center;
+    padding: 32px 0;
+   
+}
+
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+}
+.color-h1{
+    color: #995000;
+}
+
+
+
+h2 {
+    /* dados figma*/
+    padding: 8px 16px;
+    background-color: #FED7AA;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    
+    text-align: center;
+
+    color: #2D2C2A; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);               
+}
+
+
+
+
+ul{
+    list-style: none;
+    margin: 24px 0;
+    
+}
+
+
+section ul li{
+    margin: 16px 0;
+    box-shadow: 1px 1px 1px 1px rgba(141, 79, 79, 0.123);
+
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.price{
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #2D2C2A;
+    
+
+}
+
+.descripition{
+
+    max-width: 240px;
+    padding-top: 8px;
+}
